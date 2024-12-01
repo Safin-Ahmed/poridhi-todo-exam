@@ -11,9 +11,6 @@ RUN npm install
 # Copy the source code into the container
 COPY src ./src
 
-# Copy the .env file into the container
-COPY .env .env
-
 # Expose the backend port
 EXPOSE 4000 
 
